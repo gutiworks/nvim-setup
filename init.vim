@@ -46,6 +46,9 @@ Plug 'hrsh7th/cmp-buffer'
 
 Plug 'EdenEast/nightfox.nvim'
 
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+
 call plug#end()
 
 colorscheme carbonfox

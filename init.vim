@@ -24,6 +24,7 @@ vim.keymap.set( { "n", "v" }, "<leader>e", ":Lexplore<CR>", { noremap = true, si
 vim.keymap.set( { "n", "v" }, "<leader>y", ":y+<CR>", { noremap = true, silent = true })
 vim.keymap.set( "n", "<leader>b", ":bn<CR>", { noremap = true, silent = true } )
 vim.keymap.set( "t", "<Esc>", "<C-\\><C-n>" )
+vim.keymap.set( "n", "<leader>t", ":Telescope live_grep<CR>")
 -- vim.keymap.set( { "n", "v" }, "<leader>t", ":terminal<CR>", { noremap = true, silent = true })
 -- vim.keymap.set( "n", "<leader>d", ":lua vim.lsp.buf.definition()<CR>", { noremap = true, silent = true })
 -- vim.keymap.set( "n", "<leader>h", ":lua vim.lsp.buf.hover()<CR>", { noremap = true, silent = true })

@@ -12,7 +12,10 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 
 -- Command :
--- vim.cmd.colorscheme = "default"
+vim.cmd.colorscheme("habamax")
+vim.api.nvim_set_hl(0, "VertSplit", { bg = "NONE", fg = "#444444" })
+vim.api.nvim_set_hl(0, "StatusLine",  { fg = "#ffffff", bg = "#303030", bold = true })
+vim.api.nvim_set_hl(0, "StatusLineNC", { fg = "#888888", bg = "#1e1e1e" })
 
 -- Global :let
 vim.g.mapleader = " "
@@ -45,14 +48,11 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'hrsh7th/cmp-nvim-lsp'         
 Plug 'hrsh7th/cmp-buffer'
 
-Plug 'EdenEast/nightfox.nvim'
-
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 
 call plug#end()
 
-colorscheme carbonfox
 " Plugin config 
 
 lua << EOF

@@ -18,11 +18,12 @@ vim.api.nvim_set_hl(0, "VertSplit", { ctermfg = 8, ctermbg = "none" })
 vim.api.nvim_set_hl(0, "StatusLine", { ctermfg = 8, ctermbg = "none" })
 vim.api.nvim_set_hl(0, "StatusLineNC", { ctermfg = 8, ctermbg = "none" })
 
-vim.api.nvim_set_hl(0, "Structure",   { ctermfg = 72 }) 
+-- vim.api.nvim_set_hl(0, "Structure",   { ctermfg = 139 }) 
+vim.api.nvim_set_hl(0, "Function",   { ctermfg = 139 }) 
+vim.api.nvim_set_hl(0, "Class",   { ctermfg = 139 }) 
 vim.api.nvim_set_hl(0, "Identifier",   { ctermfg = 250 }) 
-vim.api.nvim_set_hl(0, "Type",   { ctermfg = 109 }) 
-vim.api.nvim_set_hl(0, "Character",   { ctermfg = 108 }) 
-vim.api.nvim_set_hl(0, "ktAnnotation",   { ctermfg = 143 }) 
+-- vim.api.nvim_set_hl(0, "Keyword",      { ctermfg = 2 })
+vim.api.nvim_set_hl(0, "ktAnnotation",   { ctermfg = 108 }) 
 
 -- Global :let
 vim.g.mapleader = " "

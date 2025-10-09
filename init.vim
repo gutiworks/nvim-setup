@@ -18,16 +18,11 @@ vim.api.nvim_set_hl(0, "VertSplit", { ctermfg = 8, ctermbg = "none" })
 vim.api.nvim_set_hl(0, "StatusLine", { ctermfg = 8, ctermbg = "none" })
 vim.api.nvim_set_hl(0, "StatusLineNC", { ctermfg = 8, ctermbg = "none" })
 
-vim.api.nvim_set_hl(0, "Identifier",   { ctermfg = 78 }) 
--- vim.api.nvim_set_hl(0, "Structure",    { ctermfg = 11 }) 
--- vim.api.nvim_set_hl(0, "Statement",    { fg = "#c6a0f6" })
--- vim.api.nvim_set_hl(0, "Keyword",      { fg = "#c6a0f6" }) 
--- vim.api.nvim_set_hl(0, "Type",         { fg = "#ffb86c" })
--- vim.api.nvim_set_hl(0, "StorageClass", { fg = "#ff9e64" })
--- vim.api.nvim_set_hl(0, "String",       { fg = "#a9dc76" })
--- vim.api.nvim_set_hl(0, "Number",       { fg = "#ffb86c" })
--- vim.api.nvim_set_hl(0, "Special",      { fg = "#a6c1ff" })
--- vim.api.nvim_set_hl(0, "Error",        { fg = "#ff5555" })
+vim.api.nvim_set_hl(0, "Structure",   { ctermfg = 72 }) 
+vim.api.nvim_set_hl(0, "Identifier",   { ctermfg = 250 }) 
+vim.api.nvim_set_hl(0, "Type",   { ctermfg = 109 }) 
+vim.api.nvim_set_hl(0, "Character",   { ctermfg = 108 }) 
+vim.api.nvim_set_hl(0, "ktAnnotation",   { ctermfg = 143 }) 
 
 -- Global :let
 vim.g.mapleader = " "

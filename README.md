@@ -1,76 +1,31 @@
-# Movements
+# My Neovim Configuration
 
-⚡ If you master just f/t + ; , + /search + gg/G/zz, you’ll barely touch arrows or hjkl for navigation again.
-
----
-
-### 🔹 Basic Movement (per character/line)
-
-* `h` → left
-* `l` → right
-* `0` → beginning of line
-* `^` → first non-whitespace character
-* `$` → end of line
+A lightweight, fast, and fully customized Neovim setup designed for productivity and simplicity.
 
 ---
 
-### 🔹 Word-Level Movement
-
-* `w` → beginning of next word
-* `e` → end of current/next word
-* `b` → beginning of current/previous word
-* `ge` → end of previous word
-
----
-
-### 🔹 Paragraph & Sentence
-
-* `{` → beginning of paragraph
-* `}` → end of paragraph
-* `( )` → move by sentence
+## ✅ Features
+- Modern Neovim configuration using **Lua**.
+- Optimized for speed and minimal overhead.
+- Includes:
+  - **LSP support** for multiple languages.
+  - **Tree-sitter** for advanced syntax highlighting.
+  - **Completion engine** for smooth coding experience.
+  - **Custom keymaps** for efficient navigation.
+- Modular structure for easy maintenance and scalability.
 
 ---
 
-### 🔹 Screen Movement
-
-* `Ctrl-d` → half-page down
-* `Ctrl-u` → half-page up
-* `Ctrl-f` → full page forward
-* `Ctrl-b` → full page back
-* `zz` → center current line on screen
-* `zt` → put current line at top
-* `zb` → put current line at bottom
+## 📌 Requirements
+- Neovim **v0.9+** (recommended latest stable)
+- Git
+- Language servers for your preferred languages
 
 ---
 
-### 🔹 Searching / Jumping
+## 🔧 Installation
 
-* `/pattern` → search forward
-* `?pattern` → search backward
-* `n` / `N` → repeat search forward/back
-* `f<char>` → jump to next occurrence of a char on the same line
-* `t<char>` → jump **until** before that char
-* `;` / `,` → repeat last `f` or `t` forward/backward
-
----
-
-### 🔹 Marks & Jumps
-
-* `''` → jump back to last cursor position in current file
-* `ma` → set mark `a` at current position
-* `'a` → jump to beginning of line with mark `a`
-* \`\`a`→ jump to exact column with mark`a\`
-
----
-
-### 🔹 File Navigation
-
-* `gg` → go to beginning of file
-* `G` → go to end of file
-* `:10` → jump to line 10
-* `10G` → same thing
-* `H` → top of screen
-* `M` → middle of screen
-* `L` → bottom of screen
-
----
+```bash
+# 1. Clone the config
+Add it on AppData/local/nvim for windows and .config/nvim on MacOS
+```

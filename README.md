@@ -4,7 +4,7 @@ A lightweight, fast, and fully customized Neovim setup designed for productivity
 
 ---
 
-## ✅ Features
+## Features
 - Modern Neovim configuration using **Lua**.
 - Optimized for speed and minimal overhead.
 - Includes:
@@ -16,14 +16,14 @@ A lightweight, fast, and fully customized Neovim setup designed for productivity
 
 ---
 
-## 📌 Requirements
+## Requirements
 - Neovim **v0.9+** (recommended latest stable)
 - Git
 - Language servers for your preferred languages
 
 ---
 
-## 🔧 Installation
+## Installation
 
 ```bash
 # 1. Clone the config
